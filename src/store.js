@@ -10,10 +10,8 @@ const reducer = combineReducers({
   transactionDeposit: transactionDepositReducer,
   transactionWithdrawal: transactionWithdrawalReducer,
   transactionTransfer: transactionTransferReducer,
-  transactionSaldo: transactionSaldoReducer
-});
+  transactionSaldo: transactionSaldoReducer,
 
-const reducer = combineReducers({
   userLogin: userLoginReducer,
   userRegister: userRegisterReducer,
 });
