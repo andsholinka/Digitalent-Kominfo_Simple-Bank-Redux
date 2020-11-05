@@ -14,7 +14,7 @@ import {
     TRANSACTION_SALDO_REQUEST,
     TRANSACTION_SALDO_SUCCESS,
     TRANSACTION_SALDO_FAIL,
-} from "../constants/transactionsConstants"
+} from "../constants/transactionConstants"
 
 export const transactionDepositReducer = (state = {}, action) => {
     switch (action.type) {
