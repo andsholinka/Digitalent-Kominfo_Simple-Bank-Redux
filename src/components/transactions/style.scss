@@ -1,0 +1,13 @@
+.customDropdown {
+    background-color: #f7f7f7;
+    color: black;
+    border-color: #f7f7f7;
+    &:hover {
+        background-color: #e9dfdf;
+        border-color: grey;
+    }
+    &:focus {
+        background-color: #e9dfdf;
+        border-color: grey;
+    }
+}
